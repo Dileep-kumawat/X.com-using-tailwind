@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@layer components{
+    .list-li{
+        @apply flex px-3 py-1 rounded-full cursor-pointer gap-3 hover:bg-gray-500/20 w-fit;
+    }
+}
